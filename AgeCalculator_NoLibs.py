@@ -2,9 +2,9 @@ user_day = int(input('Enter Day:'))
 user_month = int(input('Enter Month:'))
 user_year = int(input('Enter Year:'))
 
-current_year = 2022
-current_month = 7
-current_day = 18
+current_year = int(input('Enter current Day:'))
+current_month = int(input('Enter current Month:'))
+current_day = int(input('Enter current Year:'))
 
 year_result = (current_year - user_year) - 1
 month_result = 12 - (user_month - current_month)
